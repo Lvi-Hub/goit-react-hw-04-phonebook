@@ -1,0 +1,27 @@
+.contactList {
+  display: flex;
+  width: 500px;
+  height: 200px;
+  flex-direction: column;
+  gap: 5px;
+  padding-top: 50px;
+  padding-left: 50px;
+  justify-items: center;
+}
+
+.contactItem {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+.contactName {
+  display: inline;
+  margin-right: auto;
+}
+
+.btnDelete {
+  width: 100px;
+  height: 30px;
+  margin-left: auto;
+  cursor: pointer;
+}
